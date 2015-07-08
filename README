@@ -1,0 +1,20 @@
+
+
+./script/nginxdev.sh           - сборка по умолчанию
+
+./script/nginxdev.sh distclean - очистка дистрибутива
+./script/nginxdev.sh download  - загрузка пакета 
+./script/nginxdev.sh configure - конфигурация пакета
+./script/nginxdev.sh build     - сборка пакета
+./script/nginxdev.sh clean     - очистка сборки
+./script/nginxdev.sh start     - старт сервера
+./script/nginxdev.sh stop      - остановка сервера
+./script/nginxdev.sh restart   - рестарт сервера
+
+Директории
+./etc              - конфигурация сервера (по умолчанию http://localhost:8888)
+./nginx/build/html - корневая директория сервера
+./nginx/build/log  - директория логов сервера
+
+
+
